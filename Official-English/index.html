@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport" />
+    <link rel="stylesheet" type="text/css" href="../css/public_english.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/home_en.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon"/>
+    <script src="../js/navhoverenlish.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/toggle.js"></script>
+    <title>home</title>
+    <style>
+        .banner{
+            background: url("../images/home_banner.jpg") no-repeat center;
+            background-size: 100% 100%;
+        }
+        /*三个圆logo*/
+        .three_logo_top{
+
+            display: flex;
+            justify-content: space-around;
+        }
+        .three_logo_top>li>h2{
+            font-family: Century Gothic;
+            font-size: 20px;
+            color:#fff;
+            font-weight:normal;
+        }
+        .three_logo_top>li>h2{
+            text-align: center;
+            margin-top:22px;
+
+        }
+
+        @media screen and (min-width: 320px) and (max-width: 1024px){
+            .three_logo_top>li>h2{
+                font-size: 12px;
+                margin-top:0;;
+            }
+
+
+        }
+    </style>
+</head>
+<body style="overflow-y:Scroll;overflow-x:hidden">
+<!--头部-->
+<header>
+    <div class="inner">
+        <div class="head_left">
+            <img src="../images/logo.png" alt=""/>
+            <img src="../images/logo2.png" alt=""/>
+        </div>
+        <div class="head_right">
+            <ul class="head_right_list">
+                <li><a href="index.html">HOME</a></li>
+                <li >
+                    <a id="head_a1" href="javascript:void(0);" style="background: url('../images/down.png') no-repeat 140px 50%">MIRAILA</a>
+                    <ul class="head_box" >
+                        <li><a href="entertainment.html">ENTERTAINMENT</a></li>
+                        <li><a href="gemzen.html">GEMZEN</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a id="head_a2" href="javascript:void(0);" style="background: url('../images/down.png') no-repeat 130px 50%">PROJECT</a>
+                    <ul class="head_box">
+                        <li><a href="meyooyoo.html">MEYOOYOO</a></li>
+                        <li><a href="dmc.html">DMC</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a id="head_a3" href="javascript:void(0);" style="background: url('../images/down.png') no-repeat 130px 50%">ABOUT</a>
+                    <ul class="head_box">
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <li><a href="team.html">TEAM</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a id="head_a4"  href="javascript:void(0);">English</a>
+                    <ul class="head_box" >
+                        <li><a href="index.html">English</a></li>
+                        <li><a href="../index.html">中文</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    <div class="menu">
+        <i></i>
+        <i></i>
+    </div>
+</header>
+    <!--banner图-->
+    <div class="banner">
+        <!--<img class="banner" src="../images/home_banner.jpg" alt=""/>-->
+        <div class="three_logo">
+            <ul class="three_logo_top inner3">
+                <li>
+                    <img src="../images/home_AI.png" alt=""/>
+                    <h2>Artificial<br/>Intelligence</h2>
+                </li>
+                <li>
+                    <img src="../images/home_bigdata.png" alt=""/>
+                    <h2>BIG DATA</h2>
+                </li>
+                <li>
+                    <img src="../images/home_BLOCKCHAIN.png" alt=""/>
+                    <h2>Blockchain<br/>Technology</h2>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--内容区域-->
+    <main>
+        <!--简介-->
+        <div class="main_introduce">
+            <p>WELCOME   TO  PK4YO</p>
+        </div>
+        <!--左右图文-->
+        <!--1-->
+        <div class="main_box inner3">
+            <div class="main_box_left">
+                <img src="../images/home_DMC.png" alt=""/>
+            </div>
+            <div class="main_box_right">
+                <h3>P4 DMC</h3>
+                <p class="main_box_right_p1">P4 Data Management Center</p>
+                <p class="main_box_right_p2">P4 DMC has platforms and tools to solve the prediction of big data commercialization with user interest tag. Herein the P4 SSP traffic resource management platform is an effective tool to realize data + traffic value sharing mode.</p>
+                <a href="#">LINK</a>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <!--2-->
+        <div class="main_box2 inner3">
+            <div class="main_box_left">
+                <img src="../images/home_GEMZEN.png" alt=""/>
+            </div>
+            <div class="main_box_right">
+                <h3 class="right_end">GEMZEN</h3>
+                <p class="main_box_right_p1 right_end">Joy your travel</p>
+                <p class="main_box_right_p2 right_end">Provide value-sharing blockchain application solutions for vertical consumption scenarios for museums and scenic areas.</p>
+                <a href="#" class="right_a">DOWNLOAD</a>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <!--3-->
+        <div class="main_box inner3">
+            <div class="main_box_left">
+                <img src="../images/home_Miraila.png" alt=""/>
+            </div>
+            <div class="main_box_right">
+                <h3>Miraila World Chain</h3>
+                <p class="main_box_right_p1">Make value more valueable</p>
+                <p class="main_box_right_p2">Applications based on the Ethereum blockchain platform with data and traffic value sharing, public chain based on self-research and bottom-level development will be launched in the future to form data + traffic value sharing ecology. The beta version will be on-line in June 2018, so stay tuned.</p>
+                <a href="#">LINK</a>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <!--4-->
+        <div class="main_box2 inner3 last_main_box2">
+            <div class="main_box_left">
+                <img src="../images/home_meyooyoo.png" alt=""/>
+            </div>
+            <div class="main_box_right">
+                <h3 class="right_end">MEYOOYOO</h3>
+                <p class="main_box_right_p1 right_end">PK4YO Meyooyoo</p>
+                <p class="main_box_right_p2 right_end">Articles and value sharing community based on Blockchain, meets the beautiful consumption demands of female users and aggregates comment, testing and evaluation of the consumption. The product is based on the Ethereum platform.</p>
+                <a style="margin-bottom: 40px" href="#" class="right_a_bottom">DOWNLOAD</a>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <!--三个logo区域-->
+    </main>
+
+        <p class="foot">©2016 北京帕可福优科技有限公司 京ICP备17000376号-1  京公网安备11010102002595号</p>
+
+
+</body>
+</html>

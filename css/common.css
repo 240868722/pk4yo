@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family:  "Microsoft YaHei";
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.title-icon img {
+    display: block;
+    margin: 20px auto;
+}
+.title-nav .title-nav-list{
+    width: 60%;
+    height: 30px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.title-nav .title-nav-list li{
+    width: 16%;
+    float: left;
+    text-align: center;
+}
+.title-nav-list li a {
+    display: block;
+    border-left: 1px solid black;
+}
+.title-nav .title-nav-list .active{
+    border-left: none;
+}
+.title-nav .title-nav-list .active img {
+    position: relative;
+    top: -7px;
+}
+.title-nav .title-nav-list .active a{
+    color: #26A2D6;
+}
+.title-nav .title-nav-list li:nth-child(6) a{
+    border-right: 1px solid black;
+}
+.title-banner {
+    width: 100%;
+    margin: 0 auto;
+}
+.title-banner .title-banner-top {
+    height: 32px;
+    background-color: #0f0f0f;
+}
+.title-banner .title-banner-center {
+    overflow: hidden;
+}
+.title-banner .title-banner-center img{
+    height: 100%;
+    position: relative;
+}
+.title-banner .title-banner-bottom {
+    height: 1px;
+    background-color: #0f0f0f;
+}
+.foot-copy .blackGround {
+    width: 100%;
+    background-color: #0f0f0f;
+    height: 50px;
+    color: white;
+    margin: 20px auto 0;
+    text-align: center;
+    line-height: 50px;
+}
+.blackGround span {
+    margin-left: 10px;
+}
+.blackGround span a {
+    color: white;
+    text-decoration: underline;
+}
+.title-nav-list-select {
+    display: none;
+    padding: 5px 0;
+}
+.clickMe{
+    float: right;
+    position: relative;
+    top: 4px;
+}
+.clickMe img {
+    position: relative;
+    top: 3px;
+}
+.title-nav-list-select {
+    height: 48px;
+}
+.title-nav-list-select .selectBox {
+    width: 48px;
+    height: 48px;
+    float: right;
+    position: relative;
+    color:#ffffff;
+    background-color: #28a1d7;
+    text-align: center;
+    border-radius: 3px;
+    right: 2px;
+}
+.selectBox p{
+    margin: 0px;
+    height: inherit;
+    line-height: 48px;
+    color: white;
+}
+.formobil ul {
+    width: 30%;
+    background-color: #0f0f0f;
+    text-align: center;
+    position: absolute;
+    overflow: hidden;
+    right: -1200px;
+}
+.formobil ul li {
+    height: 50px;
+    line-height: 50px;
+}
+.formobil ul a {
+    color: #fff;
+}
+.mobilShow {
+    display: none;
+}
+.content>div {
+    margin: 80px 0;
+}
+/*.title-banner-center img {
+	z-index: 99;
+}*/
+/*
+@media screen and (max-width: 970px) {
+    body div{
+        overflow: hidden;
+    }
+    .title-banner {
+        overflow: hidden;
+    }
+}
+@media screen and (max-width: 850px){
+    body{
+        font-size: 0.8em;
+    }
+    .title-nav .title-nav-list{
+        width: 100%;
+    }
+    .foot-copy .blackGround{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .blackGround span {
+        display: block;
+    }
+    .blackGround span span {
+        display: inline;
+    }
+}
+@media screen and (max-width: 500px){
+    .title-banner .title-banner-center img{
+        height: auto;
+        width: 100%;
+    }
+    .title-nav-list{
+        display: none;
+    }
+    .title-icon {
+        display: none;
+    }
+    .title-nav-list-select {
+        width: 100%;
+        background-color: white;
+        display: block;
+    }
+    .formobil .mobilShow {
+        display: block;
+        position: absolute;
+        top: 0px;
+    }
+    .box {
+        position: relative;
+    }
+    .content>div {
+        margin: 80px 0;
+    }
+    body div .mobilLeft {
+        text-align: left;
+    }
+}*/

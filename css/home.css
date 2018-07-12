@@ -1,0 +1,394 @@
+@charset "utf-8";
+/* CSS Document */
+.clear{
+    clear:both;/*清浮动 voerflow:hidden也可用来清浮动一般放在浮动盒的父级*/
+}
+
+/*public style*/
+.clearfix{
+    zoom:1;/*IE浏览器清浮动*/
+}
+.clearfix:after{
+    content:'';/*添加一个空内容*/
+    display:block;/*转块*/
+    clear:both;/*清浮动*/
+}
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+.inner{
+    width:1300px;
+    margin:0 auto;
+}
+.inner2{
+    width:980px;
+    margin:0 auto;
+}
+
+.active{
+    color: orange;!important;
+    border-bottom: 3px solid red;
+}
+
+/*公共区域*/
+/*中英文翻译*/
+#change{
+    width:150px;
+    height:60px;
+    position: absolute;
+    right:-18px;
+    top: 100px;
+    line-height: 30px;
+}
+#change li:hover{
+    background: orange;
+
+}
+#change li:hover a{
+    color: #fff;
+}
+#change li{
+    height:30px;
+    text-align: center;
+    background: #fff;
+}
+
+
+
+/*头部*/
+body{
+    width:100%;
+    height:100%;
+}
+header{
+    width:100%;
+    height:100px;
+    background:#f0f8fa;
+    position: relative;
+    border-bottom: 4px solid black;
+}
+.head_left{
+    width:400px;
+    padding-top:20px;
+    float: left;
+}
+.head_right{
+
+    height: 100px;
+    float: right;
+    position: relative;
+}
+.head_right_list{
+
+    line-height: 100px;
+}
+
+.head_right .head_right_list>li{
+    float: left;
+    padding:0 50px;
+}
+li a{
+    color: #999999;
+    font-size: 12px;
+}
+
+
+
+.head_right_list>li img{
+    margin-left: 15px;
+}
+.head_right>span{
+    color: #fff;
+}
+/*小屏菜单menu*/
+.menu{
+    width:50px;
+    height:36px;
+    border:1px solid #cccccc;
+    border-radius: 5px;
+    position: absolute;
+    right:5%;
+    top:50%;
+    margin-top:-18px;
+    display: none;
+}
+.menu i{
+    display: block;
+    margin:10px auto 0;
+    width:40px;
+    height:3px;
+    background: #ccc;
+}
+
+
+/*banner区域*/
+.banner img{
+    width: 100%;
+    height:100%;
+}
+
+/*main主内容区域*/
+
+.main_introduce{
+    height:120px;
+    background: gainsboro;
+    align-items: center;
+    display: flex;
+}
+.main_introduce>p{
+    width:940px;
+
+    margin:0 auto;
+
+    text-align: inherit;
+    font-size: 20px;
+    font-family: Century Gothic;
+    color:#666666;
+    line-height: 35px;
+    text-indent: 2em;
+}
+/*main_box区域*/
+/*logo在左边*/
+.main_box{
+    display: flex;
+    margin-top:80px;
+}
+.main_box>.main_box_right{
+    width:500px;
+    margin-top:16px;
+    margin-left:20px;
+}
+.main_box_right>h3{
+    line-height: 30px;
+    font-size: 28px;
+    font-family: Century Gothic;
+    font-weight: 700;
+}
+.main_box_right .main_box_right_p1 {
+    color: skyblue;
+    line-height: 20px;
+    font-size: 16px;
+    font-family: Century Gothic;
+}
+.main_box_right .main_box_right_p2 {
+    width:700px;
+    font-size: 18px;
+    font-family: Century Gothic;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.main_box_right>a{
+    width:140px;
+    height:40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 13px;
+    color: #fff;
+    background: black;
+    display: inline-block;
+}
+/*logo在右边*/
+.main_box2{
+    margin-top:60px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.main_box2>.main_box_right{
+    width:700px;
+
+    margin-top:10px;
+    padding-right: 20px;
+}
+.main_box_left{
+    height:80px;
+    float: right;
+}
+.right_end{
+    text-align: end;
+}
+.right_a{
+    float: right;
+}
+.last_main_box2{
+    margin-bottom: 60px;
+}
+.main_box_right>.right_a_bottom{
+    float: right;
+}
+/*三个圆logo*/
+.three_logo{
+    height:500px;
+    background: gainsboro;
+}
+.three_logo_top{
+    padding-top:64px;
+    display: flex;
+    justify-content: space-around;
+}
+.three_logo_top>li>p,.three_logo_bottom{
+    font-family: Century Gothic;
+    font-size: 20px;
+    color:#999;
+}
+.three_logo_top>li>p{
+    text-align: center;
+    margin-top:22px;
+}
+.three_logo_bottom{
+    width:940px;
+    height:120px;
+    margin-top:40px;
+}
+
+/*footer底部区域*/
+footer{
+    height:420px;
+    font-family: Century Gothic;
+}
+.text{
+    display: flex;
+    padding-top:140px;
+
+}
+.text_left{
+    width:137px;
+    height:40px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #666666;
+    margin-top: -4px;
+}
+.text_right{
+    margin-left:28px;
+    width:915px;
+    height:160px;
+    color:#999;
+}
+.text_right>p{
+    font-size: 18px;
+    color:#999;
+}
+.foot{
+    text-align: center;
+    margin-top:62px;
+    font-size: 14px;
+    color:#999;
+}
+
+/*响应式  手机端*/
+@media screen and (min-width: 320px) and (max-width: 640px){
+    header{
+        height:60px;
+    }
+    .head_left{
+        width:50%;
+        padding-top: 15px;
+        float: left;
+    }
+    .head_left img{
+        width:48%;
+
+    }
+    .head_right{
+        width:100%;
+        height: 50px;
+        float: right;
+        position: absolute;
+        top: 50px;
+
+    }
+    .head_right .head_right_list>li{
+        box-sizing: border-box;
+        text-align: center;
+        line-height: 50px;
+        float: none;
+        background: rgba(255,255,255,0.9);
+        border-bottom: 1px solid skyblue;
+        width: 100%;
+
+    }
+    .head_right .head_right_list>li a{
+        color: orange;
+    }
+    .head_right .head_right_list>li:nth-child(2) img{
+        display: none;
+    }
+    .head_right .head_right_list>li:nth-child(3) img{
+        display: none;
+    }
+    .head_right .head_right_list>li:nth-child(4) img{
+        display: none;
+    }
+
+    .head_right_list{
+        display: none;
+        width:100%;
+        margin-top: 0;
+        position: absolute;
+        /*top:60px;*/
+        left:0;
+        top: 10px;
+    }
+    .menu{
+        display: block;
+        top: -17px
+    }
+    .inner{
+        width:100%;
+    }
+    .inner2{
+        width:100%;
+    }
+    .main_introduce{
+        width:100%;
+    }
+
+    .main_box,.main_box_right,.main_box_right .main_box_right_p2{
+        width:100%
+    }
+
+    .main_box {
+        margin-top: 20px;}
+    .main_box_right {
+        margin-left: 10px;}
+    .main_box2>.main_box_right{
+        width:100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+
+
+    /*三个logo*/
+    .three_logo_top>li img{
+        width: 60%;
+        margin-left: 20%;
+    }
+    .three_logo .three_logo_bottom{
+        width: 100%;
+        padding: 0px 10px;
+        box-sizing: border-box;
+    }
+    /*footer区域*/
+    .text {
+        padding-top: 40px;
+    }
+    .text_left{
+        margin-left: 10px;
+
+    }
+    .text_right>p {
+        padding-right: 10px;
+
+    }
+    .foot{
+        padding: 0 10px;
+        margin-top: 150px;
+    }
+}
+
